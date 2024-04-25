@@ -1,0 +1,268 @@
+.approved_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #FFE5D6;
+    border-radius: 8px;
+}
+
+.approved_heading {
+    color: #C96F3B;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.mortgage_form {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.15);
+    padding: 30px 40px;
+    margin-top: 40px;
+
+}
+
+.mortgage_form input:focus-visible {
+    border: 1px solid #CACACA;
+    box-shadow: none;
+    outline: 1px solid #CACACA;
+}
+
+.mortgage_name_text {
+    border-radius: 0px 10px;
+    border: 1px solid #CACACA;
+    background: #FFF;
+    width: 100%;
+    padding: 15px 10px 15px 15px;
+    border: 1px solid #CACACA;
+}
+
+.focus:focus-visible {
+    border: none !important;
+}
+
+.mortgage_first_section {
+    background-size: cover;
+    padding: 70px 0px 96px 0px;
+}
+
+.mortgage_btn {
+    width: 100%;
+}
+
+.top_margin {
+    margin-top: 20px;
+}
+
+.mortgage_disclaimer_para {
+    color: #3D3D3D;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.mortgage_disclaimer_para span {
+    color: #C96F3B;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.mortage_heading {
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+/* 
+.mortage_lable {
+    margin: 0px;
+    font-size: 15px;
+    font-family: 'Open Sans';
+    font-weight: 500;
+} */
+.mortage_lable {
+    margin: 0px;
+    font-size: 15px;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+input::-webkit-inner-spin-button {
+    display: none;
+}
+
+
+input {
+    outline: none;
+    border: none;
+}
+
+.mortage_input {
+
+    margin-top: 10px;
+    border: 1px solid #cbcbcb;
+    height: 40px;
+    width: 100%;
+    padding-left: 10px;
+
+}
+
+.mortage_sublable {
+    margin: 0px;
+    font-family: 'Open Sans';
+    font-size: 13px;
+    font-weight: 600;
+    color: #858585;
+    margin-top: 5px;
+}
+
+.calculator_section {
+    padding: 80px 0px;
+}
+
+.Estimated {
+    font-size: 25px;
+    font-family: 'Open Sans';
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.sale_dropdown_mortage {
+    height: 46px;
+    border: 1px solid #DBDBDB;
+
+    width: 100%;
+
+
+}
+
+.piechart {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.mortgage_calculator_form {
+    border: 1px solid #e9e9e9;
+    padding: 20px;
+    border-radius: 9px;
+}
+
+.mortgage_main_section {
+    padding: 80px 0px;
+}
+
+.mortgage_dis_para {
+    margin-top: 10px;
+}
+
+.mortage_main_heading {
+    color: #c96f3b;
+}
+
+.graph_heading {
+    display: flex;
+    justify-content: center;
+}
+
+span.principle_span {
+    height: 14px;
+    width: 14px;
+    display: inline-block;
+    background: #c96f3b;
+    border-radius: 13px;
+}
+
+span.property_span {
+    height: 14px;
+    width: 14px;
+    display: inline-block;
+    background: #f0ac84;
+
+    border-radius: 13px;
+}
+
+span.homeowner_span {
+    height: 14px;
+    width: 14px;
+    display: inline-block;
+    background: #fd5e0d;
+    border-radius: 13px;
+}
+
+span.hoa_span {
+    height: 14px;
+    width: 14px;
+    display: inline-block;
+    background: #cb273a;
+
+    border-radius: 13px;
+}
+
+.hoa_color {
+    color: #cb273a;
+    font-weight: 700;
+}
+
+.homeowner_color {
+    color: #fd5e0d;
+    font-weight: 700;
+}
+
+.property_color {
+    color: #f0ac84;
+    font-weight: 700;
+}
+
+.principle_color {
+    color: #c96f3b;
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 275px) and (max-width: 1024px) {
+    .mortgage_calculator_form {
+        margin-top: 10vw;
+    }
+
+    .mortgage_main_section {
+        padding: 117px 0px;
+    }
+
+    .calculator_section {
+        padding: 10px;
+    }
+
+    .mortgage_first_section {
+        background-size: cover;
+        padding: 115px 0px 20px 0px;
+    }
+
+    .approved_heading {
+        font-size: 23px;
+    }
+
+    .help_section {
+        padding: 20px 0px;
+    }
+
+    .col-lg-12.mortgage_calculator_form {
+        border: none;
+        margin-top: 18px;
+    }
+}

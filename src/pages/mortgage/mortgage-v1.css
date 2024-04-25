@@ -1,0 +1,169 @@
+.approved_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #FFE5D6;
+    border-radius: 8px;
+}
+
+.approved_heading {
+    color: #C96F3B;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.mortgage_form {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.15);
+    padding: 30px 40px;
+    margin-top: 40px;
+
+}
+
+.mortgage_form input:focus-visible {
+    border: 1px solid #CACACA;
+    box-shadow: none;
+    outline: 1px solid #CACACA;
+}
+
+.mortgage_name_text {
+    border-radius: 0px 10px;
+    border: 1px solid #CACACA;
+    background: #FFF;
+    width: 100%;
+    padding: 15px 10px 15px 15px;
+    border: 1px solid #CACACA;
+}
+
+.focus:focus-visible {
+    border: none !important;
+}
+
+.mortgage_first_section {
+    background-size: cover;
+    padding: 70px 0px 96px 0px;
+}
+
+.mortgage_btn {
+    width: 100%;
+}
+
+.top_margin {
+    margin-top: 20px;
+}
+
+.mortgage_disclaimer_para {
+    color: #3D3D3D;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.mortgage_disclaimer_para span {
+    color: #C96F3B;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.mortage_heading {
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.mortage_lable {
+    margin: 0px;
+    font-size: 15px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+}
+
+input::-webkit-inner-spin-button {
+    display: none;
+}
+
+
+input {
+    outline: none;
+    border: none;
+}
+
+.mortage_input {
+
+    margin-top: 10px;
+    border: 1px solid #cbcbcb;
+    height: 40px;
+    width: 100%;
+    padding-left: 10px;
+
+}
+
+.mortage_sublable {
+    margin: 0px;
+    font-family: 'Open Sans';
+    font-size: 13px;
+    font-weight: 600;
+    color: #858585;
+    margin-top: 5px;
+}
+
+.calculator_section {
+    padding: 80px 0px;
+}
+
+.Estimated {
+    font-size: 25px;
+    font-family: 'Open Sans';
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.sale_dropdown_mortage {
+    height: 46px;
+    border: 1px solid #DBDBDB;
+
+    width: 100%;
+
+
+}
+
+.piechart {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+
+@media only screen and (min-width: 275px) and (max-width: 1024px) {
+    .calculator_section {
+        padding: 10px;
+    }
+
+    .mortgage_first_section {
+        background-size: cover;
+        padding: 115px 0px 145px 0px;
+    }
+
+    .approved_heading {
+        font-size: 23px;
+    }
+
+    .help_section {
+        padding: 20px 0px;
+    }
+}
